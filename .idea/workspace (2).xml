@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8b84943-b81b-4569-b018-1ad497454386" name="Changes" comment="updating files">
+      <change afterPath="$PROJECT_DIR$/src/New/learn/pro/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/New/learn/pro/oopsPractice/AbstractPra/AbstractPra1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/New/learn/pro/oopsPractice/AbstractPra/AbstractPra2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/New/learn/pro/oopsPractice/AbstractPra/Vehical2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/New/learn/pro/oopsPractice/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/New/learn/pro/oopsPractice/Teacher.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sarath2567&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sarath2567/NewLearn.git&quot;,
+    &quot;accountId&quot;: &quot;0edd9e67-0b39-4315-b803-dfdddd7843e8&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_truckClass.zip/truckClass/MainClass/Car.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_truckClass.zip/truckClass/MainClass/Truck.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2xfsGnFEe1Re6905BUT1O4L9tNP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbstractPra1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AbstractPra2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrReverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BetweenNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharacterIS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckEqual.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckEvenOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparLargest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dimondstars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DivisibleBy5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DivsonModule.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstLetter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.For.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GraterNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Name.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OlderCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P001.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternLeftTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternLeftTriangleRev.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternRightTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternRightTriangleRev.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternSquare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternTriangleNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternTriangleRev.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice001.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prep_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prep_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNums.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeOrNot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecursionPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecursionPractice1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecursionPractice2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveSpace.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RevStr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reversstars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rtoleft.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScanNew.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sta.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Starfor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StrRevers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Str_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOf100to1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Table.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tcasting1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teacher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Vehical2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Wstar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.prep_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.returnP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.spr001.executor&quot;: &quot;Run&quot;,
+    &quot;Application.truckCar1.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Application.Palindrom">
+    <configuration name="AbstractPra1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="New.learn.pro.oopsPractice.AbstractPra.AbstractPra1" />
+      <module name="CoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="New.learn.pro.oopsPractice.AbstractPra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbstractPra2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="New.learn.pro.oopsPractice.AbstractPra.AbstractPra2" />
+      <module name="CoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="New.learn.pro.oopsPractice.AbstractPra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Palindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Palindrom" />
+      <module name="CoreJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tcasting1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="New.learn.pro.oopsPractice.Tcasting1" />
+      <module name="CoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="New.learn.pro.oopsPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vehical2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="New.learn.pro.oopsPractice.AbstractPra.Vehical2" />
+      <module name="CoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="New.learn.pro.oopsPractice.AbstractPra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CoreJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CoreJava" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Palindrom" />
+        <item itemvalue="Application.AbstractPra1" />
+        <item itemvalue="Application.Vehical2" />
+        <item itemvalue="Application.AbstractPra2" />
+        <item itemvalue="Application.Tcasting1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8b84943-b81b-4569-b018-1ad497454386" name="Changes" comment="" />
+      <created>1748340372160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748340372160</updated>
+    </task>
+    <task id="LOCAL-00001" summary="updating files">
+      <option name="closed" value="true" />
+      <created>1750405840026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750405840026</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updating files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating files" />
+  </component>
+</project>
