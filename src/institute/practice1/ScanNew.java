@@ -1,4 +1,4 @@
-package New.learn.pro;
+package institute.practice1;
 
 import java.util.Scanner;
 public class ScanNew {

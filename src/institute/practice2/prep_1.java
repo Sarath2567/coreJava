@@ -1,3 +1,5 @@
+package institute.practice2;
+
 public class prep_1 {
     public static void main(String[] args) {
          StringBuffer sb = new StringBuffer("Hello");

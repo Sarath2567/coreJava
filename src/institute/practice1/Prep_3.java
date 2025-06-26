@@ -1,4 +1,4 @@
-package New.learn.pro;
+package institute.practice1;
 
 public class Prep_3 {
     public static void main(String[] args){

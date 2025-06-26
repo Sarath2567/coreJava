@@ -1,5 +1,5 @@
-package New.learn.pro;
-import New.learn.pro.oopsPractice.Truck;
+package institute.practice1;
+import institute.oopsPractice.Truck;
 import java.util.Scanner;
 public class truckCar1 {
     public static void main(String[] args){
