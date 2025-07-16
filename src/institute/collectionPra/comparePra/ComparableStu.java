@@ -1,5 +1,5 @@
 package institute.collectionPra.comparePra;
-
+import institute.collectionPra.comparePra.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

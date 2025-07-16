@@ -2,35 +2,35 @@ package institute.threading;
 
 public class ThreadPra3 {
     public static void main(String[] args) {
-        Track1 track1=new Track1();
-        Track2 track2=new Track2();
-        track1.setTrack2(track2);
-        track2.setTrack1(track1);
+        TrackA trackA=new TrackA();
+        TrackB trackB=new TrackB();
+        trackA.setTrack2(trackB);
+        trackB.setTrack1(trackA);
 
-        Thread trainA=new Thread(()->track1.useTrack1("track2"),"Train-A");
-        Thread trainB=new Thread(()->track2.useTrack2("track1"),"Train-B");
+        Thread trainA=new Thread(()->trackA.useTrack1("TrainA",322L));
+        Thread trainB=new Thread(()->trackB.useTrack2("TrainB",235L));
         trainA.start();
         trainB.start();
     }
 }
 
-class Track1{
-    private Track2 track2;
-    public void setTrack2(Track2 track2){this.track2=track2;}
+class TrackA {
+    private TrackB trackB;
+    public void setTrack2(TrackB trackB){this.trackB=trackB;}
     public synchronized void useTrack1(String TrainA,Long Number){
-        System.out.println(Thread.currentThread().getName()+":Locked Track1");
-        synchronized (track2){
+        System.out.println(Thread.currentThread().getName()+" :Locked Track A.");
+        synchronized (trackB){
             System.out.println(Thread.currentThread().getName()+": Using only Track");
         }
     }
 }
-class Track2{
-    private Track1 track1;
-    public void setTrack1(Track1 track1){this.track1=track1;}
+class TrackB{
+    private TrackA trackA;
+    public void setTrack1(TrackA trackA){this.trackA=trackA;}
     public synchronized void useTrack2(String TrainB,Long Number){
-        System.out.println(Thread.currentThread().getName()+": Locked Track2");
-        synchronized(track1) {
-            System.out.println(Thread.currentThread().getName() + ": Using only Tack2");
+        System.out.println(Thread.currentThread().getName()+" : Locked Track B.");
+        synchronized(trackA) {
+            System.out.println(Thread.currentThread().getName() +" : Using only Tack2");
         }
     }
 }

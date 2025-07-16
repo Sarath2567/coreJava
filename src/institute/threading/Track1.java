@@ -1,46 +1,37 @@
 package institute.threading;
 
-class Track1 {
-    public static void main(String[] args) {
-        AccountService accountService = new AccountService();
-        WalletService walletService = new WalletService();
-        accountService.setWalletService(walletService);
-        walletService.setAccountService(accountService);
-
-        Thread t1 = new Thread(() -> accountService.transferMoneyA(1L, 1L));
-        Thread t2 = new Thread(() -> walletService.transferMoneyB(1L, 1L));
-
-        t1.start();
+class Counter{
+    int count =0;
+    //without Synchronized key word we get the data inconsistency
+    public void increment(){
+        count++;
+    }
+   /* public synchronized void increment(){
+        count++;
+    }*/
+}
+class Track1{
+    public static void main(String[] args) throws Exception{
+        Counter c=new Counter();
+        Thread t1=new Thread(() ->{
+            for (int i = 0; i < 1000; i++) {
+                c.increment();
+            }
+            System.out.println("Thread t1 finished");
+        });
+        Thread t2=new Thread(()->{
+            for (int i = 0; i < 1000; i++) {
+                c.increment();
+            }
+            System.out.println("Thread t2 finished");
+        });
+        t1.start(); //start out thread run
         t2.start();
-    }
-}
-
-class AccountService {
-    private WalletService walletService;
-
-    public void setWalletService(WalletService walletService) {
-        this.walletService = walletService;
-    }
-
-    public synchronized void transferMoneyA(Long accountId, Long walletId) {
-        System.out.println("AccountService locked Account");
-        synchronized (walletService) {
-            System.out.println("AccountService locked Wallet");
-        }
-    }
-}
-
-class WalletService {
-    private AccountService accountService;
-
-    public void setAccountService(AccountService accountService) {
-        this.accountService = accountService;
-    }
-
-    public synchronized void transferMoneyB(Long walletId, Long accountId) {
-        System.out.println("WalletService locked Wallet");
-        synchronized (accountService) {
-            System.out.println("WalletService locked Account");
-        }
+        System.out.println("Main thread waiting to finish t1 and t2 to finish");
+        t1.join(); //no join here
+        t2.join();
+//        System.out.println("main thread finished (without waiting)");
+        System.out.println("All Thread Finished");
+        System.out.println("Final Count: "+c.count);
     }
 }
