@@ -1,16 +1,21 @@
 package institute.threading;
-class Track2{
-    public synchronized void useTrack2(Track1 track1){
-        System.out.println(Thread.currentThread().getName()+": Locked Track2");
-        try{
-            Thread.sleep(100);
-        }catch (InterruptedException e){
-            System.out.println(e);
+class Track2 extends Thread{
+    public void run(){
+        if(Thread.currentThread().isDaemon()){
+            System.out.println("Daemon Thread");
+        }else{
+            System.out.println("User Thread");
         }
-        System.out.println(Thread.currentThread().getName()+":lock Track1");
-        track1.useTrackonly();
     }
-    public synchronized void useTrack2(){
-        System.out.println(Thread.currentThread().getName()+": Using only Tack2");
+
+    public static void main(String[] args) throws Exception {
+        Track2 t1= new Track2();
+        Track2 t2=new Track2();
+        Track2 t3=new Track2();
+        t1.setDaemon(true);
+        t1.start();
+        t2.start();
+        t3.start();
     }
+
 }
